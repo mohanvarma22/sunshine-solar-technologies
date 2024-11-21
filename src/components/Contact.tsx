@@ -47,8 +47,9 @@ const Contact = () => {
           <h2 className="text-3xl font-bold text-secondary-900 sm:text-4xl">
             Get in Touch
           </h2>
-          <p className="mt-4 text-lg text-secondary-600">
-            Ready to switch to solar? Contact us for a free consultation and quote.
+         
+          <p className="mt-4 text-lg leading-relaxed text-secondary-600">
+            Ready to take control of your energy bills?<br/> Switch to solar.<br/> Contact us for a free consultation and quote.
           </p>
         </motion.div>
 

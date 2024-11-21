@@ -7,7 +7,7 @@ const products = [
     id: 1,
     name: 'Residential Solar Panel',
     description: 'Perfect for homes, these high-efficiency panels maximize your roof space.',
-    price: '$299/panel',
+    price: 'Contact for pricing',
     features: ['20-year warranty', '400W output', 'Anti-reflective coating'],
     image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3'
   },
@@ -15,7 +15,7 @@ const products = [
     id: 2,
     name: 'Commercial Solar System',
     description: 'Designed for businesses, these panels offer maximum return on investment.',
-    price: '$499/panel',
+    price: 'Contact for pricing',
     features: ['25-year warranty', '500W output', 'Advanced monitoring'],
     image: 'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3'
   },
@@ -42,9 +42,9 @@ const Products = () => {
           </p>
         </div>
 
-        <div className="mt-16">
+        {/* <div className="mt-16">
           <SolarPanel3D />
-        </div>
+        </div> */}
 
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {products.map((product, index) => (

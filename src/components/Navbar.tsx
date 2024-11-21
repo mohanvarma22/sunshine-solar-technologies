@@ -19,7 +19,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Sun className="h-8 w-8 text-primary-600" />
             <span className="ml-2 text-xl font-bold text-secondary-900">
-              Sunshine Solar
+              Sunshine Solar Tech
             </span>
           </div>
           

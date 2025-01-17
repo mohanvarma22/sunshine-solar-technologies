@@ -8,7 +8,7 @@ const products = [
     name: 'Residential Solar Panel',
     description: 'Perfect for homes, these high-efficiency panels maximize your roof space.',
     price: 'Contact for pricing',
-    features: ['20-year warranty', '400W output', 'Anti-reflective coating'],
+    features: ['25-years performance warranty on panels','10 years system warranty', '540W output', 'Bifacial Solar Panels for maximum absorption','Smart monitoring system included'],
     image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3'
   },
   {
@@ -16,7 +16,7 @@ const products = [
     name: 'Commercial Solar System',
     description: 'Designed for businesses, these panels offer maximum return on investment.',
     price: 'Contact for pricing',
-    features: ['25-year warranty', '500W output', 'Advanced monitoring'],
+    features: ['Customised Solar Solutions','25-year performance warranty','10 years system warranty', '540W output','Durable frame for high wind and snow loads'],
     image: 'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3'
   },
   {
@@ -24,9 +24,43 @@ const products = [
     name: 'Industrial Solar Array',
     description: 'High-capacity panels for industrial applications and solar farms.',
     price: 'Contact for pricing',
-    features: ['30-year warranty', '600W output', 'Weather-resistant'],
+    features: ['30-year warranty', '600W output', 'Weather-resistant','Scalable system for large installations',
+      'Advanced thermal management for efficiency',],
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3'
+  },
+  {
+    id: 4,
+    name: 'Solar Street Lighting',
+    description: 'Energy-efficient and eco-friendly street lighting solution using solar power.',
+    price: 'Contact for pricing',
+    features: [
+      'Integrated solar panel and LED lighting',
+      'Automatic on/off functionality',
+      'Durable weather-resistant design',
+      'Low maintenance with long lifespan',
+      'Perfect for urban, rural, and remote areas',
+      'Light intensity adjustable for different environments',
+      'Available in multiple pole heights and designs'
+    ],
+    image: 'https://images.unsplash.com/photo-1616620280289-55f290b7dbcf?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg4OXwwfDF8c2VhY2h8Mnx8c29sYXxlbnwwfDF8fA&ixlib=rb-1.2.1&q=80&w=400'
+  },
+  {
+    id: 5,
+    name: 'Industrial Solar Array',
+    description: 'High-efficiency solar arrays for industrial use and large-scale solar farms.',
+    price: 'Contact for pricing',
+    features: [
+      'Higher output with 700W per panel',
+      'Heavy-duty, high-capacity design',
+      'Designed to withstand extreme environmental conditions',
+      'Compatible with large-scale energy storage solutions',
+      'Customized configurations for specific industrial needs',
+      'Long-lasting and highly durable',
+      'Comprehensive warranty and support services'
+    ],
+    image: 'https://images.unsplash.com/photo-1603797446034-e4cda8fc7b9f?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg4OXwwfDF8c2VhY2h8Nnx8Y29tcGxldGV8ZW58MHx8fHwxNjkzMzcwMjQ&ixlib=rb-1.2.1&q=80&w=400'
   }
+
 ];
 
 const Products = () => {

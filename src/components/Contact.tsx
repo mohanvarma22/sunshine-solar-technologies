@@ -18,15 +18,15 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_w2udsdm',
+        'template_4sppeyu',
         {
           from_name: formData.name,
           from_email: formData.email,
           phone: formData.phone,
           message: formData.message,
         },
-        'YOUR_PUBLIC_KEY'
+        'UG_UQ64qwdfylPrSp'
       );
       setStatus('success');
       setFormData({ name: '', email: '', phone: '', message: '' });
@@ -49,8 +49,11 @@ const Contact = () => {
           </h2>
          
           <p className="mt-4 text-lg leading-relaxed text-secondary-600">
-            Ready to take control of your energy bills?<br/> Switch to solar.<br/> Contact us for a free consultation and quote.
+            Take control of your energy costs today!<br />
+            Switch to solar and enjoy a greener future.<br />
+            <strong>Consult us for a free site visit, expert advice, and a detailed quotation.</strong>
           </p>
+
         </motion.div>
 
         <div className="mt-16 max-w-xl mx-auto">

@@ -1,12 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Sun, DollarSign, Leaf, Home, Battery, Shield } from 'lucide-react';
+import { Sun, IndianRupee, Leaf, Home, Battery, Shield } from 'lucide-react';
 
 const benefits = [
   {
-    icon: DollarSign,
+    icon: IndianRupee,
     title: 'Reduced Energy Bills',
-    description: 'Save up to 70% on your monthly electricity costs with solar power.',
+    description: 'Save up to 90% on your monthly electricity costs with solar power.',
   },
   {
     icon: Leaf,
@@ -25,8 +25,8 @@ const benefits = [
   },
   {
     icon: Sun,
-    title: 'Renewable Energy',
-    description: 'Harness clean, unlimited solar energy for your power needs.',
+    title: 'Become a Green Hero',
+    description: 'Use clean solar energy and help protect the environment.',
   },
   {
     icon: Shield,

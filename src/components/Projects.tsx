@@ -8,7 +8,7 @@ const projects = [
     specs: ["5kW System", "20 Solar Panels", "10 Year Warranty"],
     savings: "70%",
     location: "Bangalore",
-    image: "/api/placeholder/400/300",
+    image: "/ravibabu.jpg",
     icon: Home
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     specs: ["3kW System", "12 Solar Panels", "Smart Monitoring"],
     savings: "55%",
     location: "Mumbai",
-    image: "/api/placeholder/400/300",
+    image: "/Ch Vanaja.jpg",
     icon: Sun
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     specs: ["7kW System", "Battery Backup", "Off-Grid Setup"],
     savings: "100%",
     location: "Pune",
-    image: "/api/placeholder/400/300",
+    image: "/P Krishnam Raju.jpg",
     icon: Battery
   }
 ];
@@ -50,9 +50,10 @@ const Projects = () => {
             >
               <div className="relative">
                 <img
+                  srcSet={`${project.image} 1x, ${project.image.replace(".jpg", "@2x.jpg")} 2x`} // Added retina display support
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover"
+                  className="w-full h-48 object-cover" // Ensure proper scaling with object-cover
                 />
                 <div className="absolute top-4 right-4 bg-white p-2 rounded-full shadow-md">
                   <project.icon className="w-6 h-6 text-primary-700" />
@@ -85,10 +86,10 @@ const Projects = () => {
                 
                 <div className="mt-4 flex justify-between items-center">
                   <span className="text-sm text-gray-500">{project.location}</span>
-                  <button className="flex items-center text-primary-700 hover:text-primary-800 transition-colors">
+                  {/* <button className="flex items-center text-primary-700 hover:text-primary-800 transition-colors">
                     View Details
                     <ArrowRight className="w-4 h-4 ml-1" />
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>

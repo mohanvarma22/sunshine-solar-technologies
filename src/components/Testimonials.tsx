@@ -30,21 +30,21 @@ const PrevArrow = ({ onClick }: ArrowProps) => (
 
 const testimonials = [
   {
-    name: "Rahul Sharma",
+    name: "Ravi Babu",
     role: "Homeowner",
     feedback: "Switching to solar was the best decision. My energy bills have dropped significantly, and the team made the entire process seamless!",
     image: "/api/placeholder/150/150"
   },
   {
-    name: "Priya Nair",
-    role: "Business Owner",
-    feedback: "The solar installation for our office was quick and efficient. Excellent customer service and great savings on electricity!",
+    name: "Narender",
+    role: "Homeowner",
+    feedback: "Hi every body I have installed 3 KW TATA solar roof top plant it is working without any breakdowns . Installation work is very good , This sunshine solar technology is one of the best company they used all branded equipment and cables Thank you.",
     image: "/api/placeholder/150/150"
   },
   {
-    name: "Ramesh Gupta",
-    role: "Industrial Manager",
-    feedback: "The industrial solar setup exceeded our expectations. The energy output is phenomenal, and we're proud to go green.",
+    name: "Karunakarreddy",
+    role: "Homeowner",
+    feedback: "I have installed 3 kW system in my house, the installation is good, staff is friendly and got subsidy also, I recommend this company!",
     image: "/api/placeholder/150/150"
   }
 ];

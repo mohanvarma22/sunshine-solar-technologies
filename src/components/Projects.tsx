@@ -5,27 +5,27 @@ const projects = [
   {
     title: "3BHK Villa Solar Setup",
     description: "Complete solar solution for a modern family home in Bangalore, featuring 5kW system with battery backup. Reduced monthly electricity bills from ₹8,000 to ₹2,500.",
-    specs: ["5kW System", "20 Solar Panels", "10 Year Warranty"],
+    specs: ["3kW System", "6 Solar Panels", "25 Years Performance Warranty"],
     savings: "70%",
-    location: "Bangalore",
+    location: "Hyderabad",
     image: "/ravibabu.jpg",
     icon: Home
   },
   {
     title: "Smart Home Integration",
-    description: "Solar installation with smart monitoring for a 2BHK apartment. Includes real-time energy tracking and automated power management system.",
-    specs: ["3kW System", "12 Solar Panels", "Smart Monitoring"],
-    savings: "55%",
-    location: "Mumbai",
+    description: "Solar installation with smart monitoring for a 3BHK house. Includes real-time energy tracking and automated power management system.",
+    specs: ["5kW System", "10 Solar Panels", "Smart Monitoring"],
+    savings: "90%",
+    location: "Hyderabad",
     image: "/Ch Vanaja.jpg",
     icon: Sun
   },
   {
-    title: "Off-Grid Farmhouse",
-    description: "Complete off-grid solution for a weekend farmhouse, including battery storage system for 24/7 power availability.",
-    specs: ["7kW System", "Battery Backup", "Off-Grid Setup"],
-    savings: "100%",
-    location: "Pune",
+    title: "5kWp Solar Setup",
+    description: "Complete on-grid solution for a weekend farmhouse, including battery storage system for 24/7 power availability.",
+    specs: ["5kW System", "Smart Monitoring", "25 years performance warranty"],
+    savings: "70%",
+    location: "Hyderabad",
     image: "/P Krishnam Raju.jpg",
     icon: Battery
   }
